@@ -14,7 +14,25 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+```
+
+
+import re
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+result = []
+for item in items:
+    if not re.search(r'e', item):
+        result.append(item)
+print(result)
+
+
+
+```
 ## Output
+
+
+
+
+<img width="918" height="199" alt="530708069-05567430-21d8-457b-9661-0780abf41bb3" src="https://github.com/user-attachments/assets/3468c8b8-540c-457f-a5bb-5c42470c220a" />
 
 ## Result
